@@ -1,3 +1,3 @@
 # applefrack
 
-[Intro.pdf]https://github.com/evanwb/applefrack/main/prfaq.pdf).
+[Intro.pdf](https://github.com/evanwb/applefrack/blob/main/prfaq.pdf).
