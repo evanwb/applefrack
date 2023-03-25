@@ -1,0 +1,114 @@
+[{
+    "position": "Software Engineer",
+    "location": "San Francisco, CA",
+    "company": "Google",
+    "type": "Full-time"
+    },
+    {
+    "position": "Marketing Coordinator",
+    "location": "New York, NY",
+    "company": "Amazon",
+    "type": "Full-time"
+    },
+    {
+    "position": "Financial Analyst",
+    "location": "Chicago, IL",
+    "company": "JPMorgan Chase",
+    "type": "Full-time"
+    },
+    {
+    "position": "Human Resources Manager",
+    "location": "Boston, MA",
+    "company": "Procter & Gamble",
+    "type": "Full-time"
+    },
+    {
+    "position": "Product Manager",
+    "location": "Seattle, WA",
+    "company": "Microsoft",
+    "type": "Full-time"
+    },
+    {
+    "position": "Social Media Specialist",
+    "location": "Los Angeles, CA",
+    "company": "Facebook",
+    "type": "Full-time"
+    },
+    {
+    "position": "Sales Representative",
+    "location": "Denver, CO",
+    "company": "Salesforce",
+    "type": "Full-time"
+    },
+    {
+    "position": "Graphic Designer",
+    "location": "Portland, OR",
+    "company": "Nike",
+    "type": "Full-time"
+    },
+    {
+    "position": "Data Analyst",
+    "location": "San Diego, CA",
+    "company": "Apple",
+    "type": "Full-time"
+    },
+    {
+    "position": "Web Developer",
+    "location": "Austin, TX",
+    "company": "IBM",
+    "type": "Full-time"
+    },
+    {
+    "position": "Accountant",
+    "location": "Atlanta, GA",
+    "company": "Deloitte",
+    "type": "Full-time"
+    },
+    {
+    "position": "Journalist",
+    "location": "Washington, D.C.",
+    "company": "The New York Times",
+    "type": "Full-time"
+    },
+    {
+    "position": "User Experience Designer",
+    "location": "San Jose, CA",
+    "company": "Adobe",
+    "type": "Full-time"
+    },
+    {
+    "position": "Copywriter",
+    "location": "Philadelphia, PA",
+    "company": "PepsiCo",
+    "type": "Full-time"
+    },
+    {
+    "position": "Software Developer",
+    "location": "Raleigh, NC",
+    "company": "Red Hat",
+    "type": "Full-time"
+    },
+    {
+    "position": "Business Analyst",
+    "location": "Houston, TX",
+    "company": "Accenture",
+    "type": "Full-time"
+    },
+    {
+    "position": "Project Manager",
+    "location": "Orlando, FL",
+    "company": "Walt Disney",
+    "type": "Full-time"
+    },
+    {
+    "position": "Mechanical Engineer",
+    "location": "Detroit, MI",
+    "company": "Ford Motor Company",
+    "type": "Full-time"
+    },
+    {
+    "position": "Art Director",
+    "location": "Miami, FL",
+    "company": "ViacomCBS",
+    "type": "Full-time"
+    }]
