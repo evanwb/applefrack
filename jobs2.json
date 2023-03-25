@@ -1,0 +1,213 @@
+[{
+    "position": "Systems Engineer",
+    "major": "Computer Science",
+    "skills": ["Java", "Python", "Git", "SQL"],
+    "location": "San Francisco, CA",
+    "company": "Google",
+    "type": "Full-time",
+    "description": "Develop and maintain software systems and applications using Java and Python programming languages. Collaborate with cross-functional teams to ensure the software is scalable and reliable."
+ },
+ {
+    "position": "Software Engineer",
+    "major": "Computer Science",
+    "skills": ["Java", "Python", "Git", "SQL"],
+    "location": "San Diego, CA",
+    "company": "Google",
+    "type": "Full-time",
+    "description": "Develop and maintain software systems and applications using Java and Python programming languages. Collaborate with cross-functional teams to ensure the software is scalable and reliable."
+ },
+ {
+    "position": "Marketing Coordinator",
+    "major": "Marketing",
+    "skills": ["SEO", "SEM", "Social Media", "Copywriting"],
+    "location": "New York, NY",
+    "company": "Amazon",
+    "type": "Full-time",
+    "description": "Plan and execute marketing campaigns across multiple channels, including SEO, SEM, social media, and email marketing. Write and edit copy for marketing materials."
+ },
+ {
+    "position": "Financial Analyst",
+    "major": "Finance",
+    "skills": ["Excel", "Accounting", "Financial Modeling", "Data Analysis"],
+    "location": "Chicago, IL",
+    "company": "JPMorgan Chase",
+    "type": "Full-time",
+    "description": "Analyze financial data, create financial models, and provide financial forecasts. Prepare financial reports and presentations for management."
+ },
+ {
+    "position": "Human Resources Specialist",
+    "major": "Human Resources",
+    "skills": ["Employee Relations", "Performance Management", "HR Policies and Procedures", "Recruitment"],
+    "location": "Seattle, WA",
+    "company": "Microsoft",
+    "type": "Full-time",
+    "description": "Assist with employee relations, performance management, HR policies and procedures, and recruitment. Provide guidance to managers and employees on HR-related matters."
+ },
+ {
+    "position": "Graphic Designer",
+    "major": "Graphic Design",
+    "skills": ["Adobe Creative Suite", "Typography", "Layout Design", "Branding"],
+    "location": "Los Angeles, CA",
+    "company": "Disney",
+    "type": "Full-time",
+    "description": "Create designs and layouts for print and digital media, including marketing materials, advertisements, and website graphics. Maintain consistent branding across all design materials."
+ },
+ {
+    "position": "Data Analyst",
+    "major": "Data Science",
+    "skills": ["SQL", "Data Visualization", "Statistical Analysis", "Python"],
+    "location": "Boston, MA",
+    "company": "Wayfair",
+    "type": "Full-time",
+    "description": "Collect and analyze data to identify patterns and trends. Create visualizations and dashboards to communicate insights to stakeholders. Use statistical analysis to make data-driven recommendations."
+ },
+ {
+    "position": "Product Manager",
+    "major": "Business Administration",
+    "skills": ["Agile Development", "User Experience", "Product Strategy", "Data Analysis"],
+    "location": "San Diego, CA",
+    "company": "Apple",
+    "type": "Full-time",
+    "description": "Lead product development teams to create innovative products and features. Define product strategy, prioritize features, and work closely with design and engineering teams to ensure successful product delivery."
+ },{
+    "position": "Human Resources Coordinator",
+    "major": "Human Resources",
+    "skills": ["Employee Relations", "Recruiting", "Onboarding", "HRIS"],
+    "location": "Atlanta, GA",
+    "company": "Delta Air Lines",
+    "type": "Full-time",
+    "description": "Support the HR team in employee relations, recruiting, and onboarding processes. Maintain employee records in the HRIS system and provide support to employees on HR-related issues."
+ },
+ {
+    "position": "Journalist",
+    "major": "Journalism",
+    "skills": ["Reporting", "Writing", "Editing", "Research"],
+    "location": "Washington, D.C.",
+    "company": "CNN",
+    "type": "Full-time",
+    "description": "Research and report on current events and breaking news. Write and edit articles for print and online publications. Conduct interviews with sources and provide analysis and commentary on news stories."
+ },{
+    "position": "Data Analyst",
+    "major": "Statistics",
+    "skills": ["SQL", "Excel", "Data Visualization", "Python"],
+    "location": "Seattle, WA",
+    "company": "Microsoft",
+    "type": "Full-time",
+    "description": "Analyze large data sets to identify patterns and trends. Create reports and visualizations to present findings to stakeholders. Use Python programming language to automate data analysis tasks."
+ },
+ {
+    "position": "Environmental Scientist",
+    "major": "Environmental Science",
+    "skills": ["GIS", "Environmental Regulations", "Data Collection", "Project Management"],
+    "location": "Denver, CO",
+    "company": "National Park Service",
+    "type": "Full-time",
+    "description": "Assess and analyze environmental data to support decision-making. Use GIS software to create maps and analyze spatial data. Ensure compliance with environmental regulations."
+ },
+ {
+    "position": "Business Analyst",
+    "major": "Business Administration",
+    "skills": ["Data Analysis", "Project Management", "Business Strategy", "Presentation Skills"],
+    "location": "San Diego, CA",
+    "company": "Qualcomm",
+    "type": "Full-time",
+    "description": "Analyze business data to identify trends and opportunities. Develop and implement business strategies to improve efficiency and profitability. Create presentations to communicate findings and recommendations to senior management."
+ },
+ {
+    "position": "UX Designer",
+    "major": "Interaction Design",
+    "skills": ["User Research", "Wireframing", "Prototyping", "Usability Testing"],
+    "location": "Boston, MA",
+    "company": "HubSpot",
+    "type": "Full-time",
+    "description": "Design and prototype user interfaces for web and mobile applications. Conduct user research and usability testing to validate design decisions. Collaborate with product managers and developers to ensure designs are implemented accurately."
+ },
+ {
+    "position": "Physical Therapist",
+    "major": "Physical Therapy",
+    "skills": ["Manual Therapy", "Patient Care", "Injury Prevention", "Documentation"],
+    "location": "Portland, OR",
+    "company": "Kaiser Permanente",
+    "type": "Full-time",
+    "description": "Evaluate and treat patients with physical impairments or disabilities. Develop treatment plans and monitor progress. Educate patients and families on injury prevention and rehabilitation exercises."
+ },
+ {
+    "position": "Event Planner",
+    "major": "Hospitality Management",
+    "skills": ["Event Coordination", "Vendor Management", "Budgeting", "Customer Service"],
+    "location": "Orlando, FL",
+    "company": "Walt Disney World",
+    "type": "Full-time",
+    "description": "Plan and execute events for various groups, including weddings, corporate events, and social gatherings. Coordinate with vendors and manage budgets. Provide excellent customer service to ensure successful events."
+ },
+ {
+    "position": "Clinical Psychologist",
+    "major": "Psychology",
+    "skills": ["Psychotherapy", "Assessment", "Research", "Patient Care"],
+    "location": "Philadelphia, PA",
+    "company": "University of Pennsylvania Health System",
+    "type": "Full-time",
+    "description": "Provide psychotherapy and assessments to patients with mental health issues. Conduct research on mental health and contribute to academic publications. Collaborate with other healthcare professionals to provide comprehensive care to patients"
+ },{
+    "position": "Mechanical Engineer",
+    "major": "Mechanical Engineering",
+    "skills": ["SolidWorks", "CAD", "Manufacturing Processes", "Thermodynamics"],
+    "location": "Detroit, MI",
+    "company": "Ford",
+    "type": "Full-time",
+    "description": "Design and develop mechanical systems for vehicles, including engines, transmissions, and suspension systems. Collaborate with cross-functional teams to ensure designs meet performance and cost requirements."
+ },
+ {
+    "position": "Product Manager",
+    "major": "Business Administration",
+    "skills": ["Product Development", "Market Analysis", "Project Management", "Data Analysis"],
+    "location": "Seattle, WA",
+    "company": "Microsoft",
+    "type": "Full-time",
+    "description": "Lead the development and launch of new software products. Conduct market research and analysis to identify customer needs and preferences. Develop product roadmaps and work with engineering teams to ensure products are delivered on time and within budget."
+ },
+ {
+    "position": "Graphic Designer",
+    "major": "Visual Communication Design",
+    "skills": ["Adobe Creative Suite", "Typography", "Layout Design", "User Experience Design"],
+    "location": "San Francisco, CA",
+    "company": "Airbnb",
+    "type": "Full-time",
+    "description": "Create visual designs for marketing materials, including ads, brochures, and web graphics. Design user interfaces and user experiences for web and mobile applications. Collaborate with other designers and marketing teams to ensure designs align with brand standards."
+ },
+ {
+    "position": "Web Developer",
+    "major": "Computer Science",
+    "skills": ["HTML", "CSS", "JavaScript", "React"],
+    "location": "Austin, TX",
+    "company": "Facebook",
+    "type": "Full-time",
+    "description": "Develop and maintain web applications using HTML, CSS, and JavaScript. Build user interfaces with React. Collaborate with product and design teams to ensure applications are intuitive and responsive."
+ },
+ {
+    "position": "Data Analyst",
+    "major": "Statistics",
+    "skills": ["Data Analysis", "SQL", "Python", "Data Visualization"],
+    "location": "New York, NY",
+    "company": "Goldman Sachs",
+    "type": "Full-time",
+    "description": "Analyze financial data and create reports to support decision-making. Build and maintain data pipelines using SQL and Python. Create data visualizations to communicate insights to stakeholders."
+ },
+ {
+    "position": "Human Resources Manager",
+    "major": "Human Resources",
+    "skills": ["Employee Relations", "Performance Management", "Compensation and Benefits", "Labor Law"],
+    "location": "Chicago, IL",
+    "company": "United Airlines",
+    "type": "Full-time",
+    "description": "Manage the HR function for a business unit or department, including employee relations, performance management, compensation and benefits, and compliance with labor laws. Develop and implement HR policies and procedures. Provide guidance and support to employees on HR-related issues."
+ },
+ {
+    "position": "UX Designer",
+    "major": "User Experience Design",
+    "skills": ["User Research", "Prototyping", "Interaction Design", "Usability Testing"],
+    "location": "Seattle, WA",
+    "company": "Amazon",
+    "type": "Full-time",
+    "description": "Design user interfaces and experiences for web and mobile applications. Conduct user research to understand customer needs and preferences. Create wireframes, prototypes, and visual designs to communicate design concepts."
+ }]
