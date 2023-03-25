@@ -1,5 +1,12 @@
-import { View, Text, TextInput, StyleSheet } from "react-native";
+import {
+  View,
+  Text,
+  TextInput,
+  StyleSheet,
+  TouchableOpacity,
+} from "react-native";
 import { useState } from "react";
+import { Touchable } from "react-native";
 
 const Signup = () => {
   const [name, setName] = useState("");
@@ -17,7 +24,7 @@ const Signup = () => {
           textAlign: "center",
         }}
       >
-        AppleFrack
+        Lets get to know you
       </Text>
       <TextInput
         style={styles.input}
@@ -25,7 +32,30 @@ const Signup = () => {
         placeholder="Full name"
         onChangeText={setName}
       />
-      <TextInput />
+      <TextInput
+        style={styles.input}
+        value={name}
+        placeholder="Major"
+        onChangeText={setName}
+      />
+      <TextInput
+        style={styles.input}
+        value={name}
+        placeholder="Skills"
+        onChangeText={setName}
+      />
+      <TouchableOpacity
+        style={{
+          backgroundColor: "blue",
+          margin: 10,
+          paddingVertical: 10,
+
+          borderRadius: 5,
+        }}
+        onPress={() => {}}
+      >
+        <Text style={{ color: "white", textAlign: "center" }}>Sign Up</Text>
+      </TouchableOpacity>
     </View>
   );
 };
