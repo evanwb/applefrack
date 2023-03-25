@@ -6,7 +6,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { useState } from "react";
-import { Touchable } from "react-native";
+import * as Progress from "react-native-progress";
 
 const Signup = () => {
   const [name, setName] = useState("");
