@@ -1,28 +1,43 @@
 import React, { useEffect, useState } from "react";
-import { View, Text, ScrollView, TouchableOpacity } from "react-native";
+import {
+  View,
+  Text,
+  ScrollView,
+  TouchableOpacity,
+  TextInput,
+} from "react-native";
 import jobsraw from "./jobs2.json";
-import * as Progress from "react-native-progress";
+import { useNavigation } from "@react-navigation/native";
 
-const Jobs = ({ navigation }: any) => {
-  const user = {
-    skills: ["Employee Relations", "Performance Management"],
-    location: "San Diego, CA",
-  };
+const Jobs = ({ route, user }: any) => {
+  //const user = route.params.user;
   const [filter, setFilter] = useState("all");
   const [jobs, setJobs] = useState([]);
+  const [search, setSearch] = useState("");
+
+  const navigation = useNavigation();
 
   useEffect(() => {
     var jobsr;
     if (filter === "best fit") {
       jobsr = jobsraw.filter((j) => {
         var res;
-        user.skills.forEach((s) => (res = j.skills.includes(s)));
+        user.skills.forEach(
+          (s) => (res = j.skills.includes(s) || j.major === user.major)
+        );
         return res;
       });
     } else if (filter === "near me") {
       jobsr = jobsraw.filter((j) => j.location === user.location);
     } else {
-      jobsr = jobsraw;
+      if (search !== "")
+        jobsr = jobsraw.filter(
+          (j) =>
+            j.position.includes(search) ||
+            j.company.includes(search) ||
+            j.description.includes(search)
+        );
+      else jobsr = jobsraw;
     }
     /* switch (filter) {
       default:
@@ -38,7 +53,7 @@ const Jobs = ({ navigation }: any) => {
       }
     } */
     setJobs(jobsr);
-  }, [filter]);
+  }, [filter, search]);
   return (
     <View
       style={{
@@ -125,6 +140,18 @@ const Jobs = ({ navigation }: any) => {
           </Text>
         </TouchableOpacity>
       </View>
+      <TextInput
+        placeholder="Search"
+        style={{
+          borderWidth: 1,
+          borderColor: "#003366",
+          borderRadius: 10,
+          backgroundColor: "white",
+          padding: 10,
+          margin: 10,
+        }}
+        onChangeText={setSearch}
+      ></TextInput>
       <View
         style={{
           marginVertical: 0,

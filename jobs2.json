@@ -1,8 +1,17 @@
 [{
-    "position": "Software Engineer",
+    "position": "Systems Engineer",
     "major": "Computer Science",
     "skills": ["Java", "Python", "Git", "SQL"],
     "location": "San Francisco, CA",
+    "company": "Google",
+    "type": "Full-time",
+    "description": "Develop and maintain software systems and applications using Java and Python programming languages. Collaborate with cross-functional teams to ensure the software is scalable and reliable."
+ },
+ {
+    "position": "Software Engineer",
+    "major": "Computer Science",
+    "skills": ["Java", "Python", "Git", "SQL"],
+    "location": "San Diego, CA",
     "company": "Google",
     "type": "Full-time",
     "description": "Develop and maintain software systems and applications using Java and Python programming languages. Collaborate with cross-functional teams to ensure the software is scalable and reliable."

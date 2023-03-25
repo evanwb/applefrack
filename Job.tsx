@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { key } from "./secrets";
 import {
   View,
   Text,
@@ -12,9 +13,9 @@ import { Configuration, OpenAIApi } from "openai";
 import "react-native-url-polyfill/auto";
 import Question from "./Question";
 
-const askChat = async (job: any) => {
+const get_questions = async (job: any) => {
   const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: key,
   });
   const openai = new OpenAIApi(configuration);
 
@@ -22,7 +23,6 @@ const askChat = async (job: any) => {
     model: "text-davinci-003",
     max_tokens: 1000,
     temperature: 0,
-
     prompt:
       "generate a list of 3 comma seperated json objects with fields for 'question' and 'answer' to help improve this skills for this job " +
       job.skills,
@@ -38,7 +38,7 @@ const Job = ({ navigation, route }: any) => {
   >([]);
 
   useEffect(() => {
-    askChat(job).then((q) => {
+    get_questions(job).then((q) => {
       if (questions.length === 0) setQuestions(q);
     });
   }, [questions]);
@@ -63,7 +63,7 @@ const Job = ({ navigation, route }: any) => {
         </View>
         <View style={styles.skillsContainer}>
           {skills.map((skill: string) => (
-            <View style={{ ...styles.skill }}>
+            <View key={skill} style={{ ...styles.skill }}>
               <Text key={skill} style={{ color: "white" }}>
                 {skill}
               </Text>
@@ -94,7 +94,11 @@ const Job = ({ navigation, route }: any) => {
           </Text>
           <View>
             {questions.splice(0, 3).map((q) => (
-              <Question question={q.question} answer={q.answer} />
+              <Question
+                key={q.question}
+                question={q.question}
+                answer={q.answer}
+              />
             ))}
           </View>
           <View>{""}</View>

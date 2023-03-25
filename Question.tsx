@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const Question = ({
   question,
@@ -10,7 +11,10 @@ const Question = ({
 }) => {
   const [isAnswerVisible, setIsAnswerVisible] = useState(false);
 
-  const toggleAnswerVisibility = () => {
+  const toggleAnswerVisibility = async () => {
+    const count = parseInt((await AsyncStorage.getItem("count")) ?? "0");
+    await AsyncStorage.setItem("count", `${count + 1}`);
+
     setIsAnswerVisible(!isAnswerVisible);
   };
 
