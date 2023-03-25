@@ -1,3 +1,3 @@
 # applefrack
 
-[embed]prfaq.pdf[/embed]
+./prfaq.pdf
